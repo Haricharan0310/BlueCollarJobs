@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Login from "./components/Login";
+import Login from "./Login";
 import "./App.css";
-import CreatePost from "./components/CreatePost";
-import Home from "./components/Home";
-import About from "./components/About";
+import CreatePost from "./CreatePost";
+import Home from "./Home";
+import About from "./About";
 import { signOut } from "firebase/auth";
 import { useState, useEffect } from "react";
 import { FirebaseAuthContext } from "./firebase-auth-context";
